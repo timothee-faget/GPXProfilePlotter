@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gpxprofpy"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{ name = "Timothee FAGET", email = "timotheefaget@gmail.com" }]
 description = "Package with tool to plot a GPX elevation profile"
 readme = "README.md"
@@ -17,5 +17,5 @@ classifiers = [
 dependencies = ["gpxpy >= 1.6.0", "matplotlib >= 3.9.0", "numpy >= 2.0.0"]
 
 [project.urls]
-Homepage = "https://github.com/timothee-faget/GPXProfilePloter"
-Issues = "https://github.com/timothee-faget/GPXProfilePloter/issues"
+Homepage = "https://github.com/timothee-faget/GPXProfilePlotter"
+Issues = "https://github.com/timothee-faget/GPXProfilePlotter/issues"
