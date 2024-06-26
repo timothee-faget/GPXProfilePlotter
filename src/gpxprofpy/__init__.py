@@ -23,8 +23,8 @@ def plot_gpx_profile(
         GPX file name.
 
     plot_slope: bool, optional
-        Plot slope segments (default: False). If activated, plot segments that are longerr than
-        variable SEUIL defined in .params. Segments colors are choosen accordingly to their
+        Plot slope segments (default: False). If activated, plot segments that are longer than
+        variable SEUIL defined in .params. Segments colors are chosen accordingly to their
         mean slope, and colors are also defined in .params.
 
     plot_points: bool, optional
@@ -40,13 +40,13 @@ def plot_gpx_profile(
 
     Examples
     ----------
-    >>> plot_gpx_profile("data/RAF_500.gpx")
+    >>> plot_gpx_profile("data/MyGPXFile.gpx")
         Plots elevation profile only
 
-    >>> plot_gpx_profile("data/RAF_500.gpx", True, True, True)
+    >>> plot_gpx_profile("data/MyGPXFile.gpx", True, True, True)
         Plots elevation profile, slope segments, remarquables points and saves a png file
 
-    >>> plot_gpx_profile("data/RAF_500.gpx", save_fig=True)
+    >>> plot_gpx_profile("data/MyGPXFile.gpx", save_fig=True)
         Plots elevation profile and saves a png file
     """
 
