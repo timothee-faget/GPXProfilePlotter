@@ -6,6 +6,12 @@ Import plot_gpx_profile function to use
 
 # Changelog
 
+## v0.0.4
+
+Fix:
+
+- Versioning issues
+
 ## v0.0.3
 
 Fix:
