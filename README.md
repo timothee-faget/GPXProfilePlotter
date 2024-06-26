@@ -6,6 +6,12 @@ Import plot_gpx_profile function to use
 
 # Changelog
 
+## v0.0.3
+
+Fix:
+
+- Projects URL in toml configuration file
+
 ## v0.0.2
 
 Initial version
