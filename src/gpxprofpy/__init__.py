@@ -6,7 +6,7 @@ Contains tool for plotting a GPX elevation profile.
 Import plot_gpx_profile function to use
 """
 
-from . import profiler as prf
+from . import main as prf
 
 
 def plot_gpx_profile(
@@ -50,6 +50,7 @@ def plot_gpx_profile(
         Plots elevation profile and saves a png file
     """
 
-    gpx_file = prf.GPXFile(filename)
+    gpx_file = prf.prf.GPXFile(filename)
     gpx_profile = gpx_file.profile()
-    gpx_profile.plot(plot_slope, plot_points, save_fig)
+    prf.plot_profile(gpx_profile, plot_slope, plot_points, save_fig)
+    # gpx_profile.plot(plot_slope, plot_points, save_fig)

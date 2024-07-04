@@ -3,7 +3,7 @@
 Tool for plotting a GPX elevation profile
 
 Import plot_gpx_profile function to use:
-```from gpxprofpy import plot_gpx_profile```
+``from gpxprofpy import plot_gpx_profile``
 
 Parameters
 ----------
@@ -26,20 +26,33 @@ Parameters
     Save plot as png file (default: False). If activated, plot is saved to a png
     file with the same name as the main GPX file.
 
-
 Examples
-----------
-```plot_gpx_profile("data/MyGPXFile.gpx")```
+--------
+
+``plot_gpx_profile("data/MyGPXFile.gpx")``
 Plots elevation profile only
 
-```plot_gpx_profile("data/MyGPXFile.gpx", True, True, True)```
+``plot_gpx_profile("data/MyGPXFile.gpx", True, True, True)``
 Plots elevation profile, slope segments, remarquables points and saves a png file
 
-```plot_gpx_profile("data/MyGPXFile.gpx", save_fig=True)```
+``plot_gpx_profile("data/MyGPXFile.gpx", save_fig=True)``
 Plots elevation profile and saves a png file
 
-
 # Changelog
+
+## v0.1.0
+
+Major refactoring of the code
+
+Add:
+
+- Tests for basic functions. More to come
+- Merging segments tools
+
+Fix:
+
+- Slope segment detection now detect all segments
+- Micro segments are detected and merged
 
 ## v0.0.5
 

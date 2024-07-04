@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gpxprofpy"
-version = "0.0.5"
+version = "0.1.0"
 authors = [{ name = "Timothee FAGET", email = "timotheefaget@gmail.com" }]
 description = "Package with tool to plot a GPX elevation profile"
 readme = "README.md"
